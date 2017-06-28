@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="87dp"
+    android:layout_height="88dp" >
+
+    <FrameLayout
+        android:layout_width="87dp"
+        android:layout_height="87dp" >
+
+        <com.coban.album.view.MyImageview
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/imageview"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/ImageView_tip"
+            android:layout_width="88dp"
+            android:layout_height="86dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/item_choose"
+            />
+
+        <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/video_mark"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="62dp"
+                android:src="@mipmap/video_gradview_mark"
+        />
+
+        <ImageView
+            android:id="@+id/chakan_photo"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginLeft="67dp"
+            android:src="@drawable/chakan"
+            />
+    </FrameLayout>
+
+</LinearLayout>
